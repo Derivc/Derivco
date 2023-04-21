@@ -16,6 +16,7 @@ namespace GamingApplication.Controllers
     {
         private readonly IGamingApplication _gamingFunction;
 
+
         [System.Web.Http.Route("api/game/spin")]
         [System.Web.Http.HttpPost]
         public async Task<HttpResponseMessage> Spin([FromBody] Request Req)
